@@ -1,12 +1,12 @@
-const dotenv = require("dotenv");
-dotenv.config();
+// const dotenv = require("dotenv");
+// dotenv.config();
 
 module.exports = {
-    dialect: process.env.DB_DIALECT,
-    host: process.env.DB_HOST,
-    username: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DATABASE,
+    dialect: "mysql",
+    host: "localhost",
+    username: "aluno_medio",
+    password: "@lunoSenai23.",
+    database: "thoughts_system",
     define: {
         timestamps: true,
         underscored: true
